@@ -19,8 +19,8 @@
             <h5 class="text-gray-500 mb-1"><%=user.email%></h5>
           
             <div class="flex gap-4">
-                <a href="/edit" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Edit</a>
-                <a href="/delete" class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition">Delete</a>
+                <a href="/edit/<%=user._id%>" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Edit</a>
+                <a href="/delete/<%=user._id%>" class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition">Delete</a>
             </div>
         </div>
             <%});%>
